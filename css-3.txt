@@ -1,0 +1,152 @@
+       (CSS and CSS 3)
+          Questions
+
+
+1.    What are the benefits of using CSS?
+  Ans:1) Faster Page Speed:
+         More code means slower page speed. And CSS enables you to use less code. 
+         CSS allows you to use one CSS rule and apply it to all occurrences of a certain tag within an HTML document.
+
+      2) Better User Experience:
+         CSS not only makes web pages easy on the eye, it also allows for user-friendly formatting.
+         When buttons and text are in logical places and well organized, user experience improves.
+
+      3) Quicker Development Time:
+         With CSS, you can apply specific formatting rules and styles to multiple pages with one string of code.
+         One cascading style sheet can be replicated across several website pages. If, for instance,
+         you have product pages that should all have the same formatting,
+         look, and feel, writing CSS rules for one page will suffice for all pages of that same type.
+
+      4) Easy Formatting Changes:
+         If you need to change the format of a specific set of pages, it’s easy to do so with CSS. There’s no need to fix every individual page.
+         Just edit the corresponding CSS stylesheet and you’ll see changes applied to all the pages that are using that style sheet.
+
+      5) Compatibility Across Devices:
+         Responsive web design matters. In today’s day and age, web pages must be fully visible and easily navigable on all devices.
+         Whether mobile or tablet, desktop, or even smart TV, CSS combines with HTML to make responsive design possible
+
+2.   What are the disadvantages of CSS?
+  Ans:(1)CSS, CSS 1 up to CSS3, result in creating of confusion among  web browsers.
+
+      (2)With CSS, what works with one browser might not always work with another. The web developers need to test for compatibility,
+         running the program across multiple browsers.
+
+      (3)There exists a scarcity of security.
+
+      (4)After making the changes we need to confirm the compatibility if they appear. The similar change affects on all the browsers.
+
+      (5)The programming language world is complicated for non-developers and beginners. Different levels of CSS i.e. CSS, CSS 2, CSS 3 are often quite confusing.
+
+      (6)Browser compatibility (some styles sheet are supported and some are not).
+
+      (7)CSS works differently on different browsers. IE and Opera supports CSS as different logic.
+
+      (8)There might be cross-browser issues while using CSS.
+
+      (9)There are multiple levels which creates confusion for non-developers and beginners
+
+3.   What is the difference between CSS2 and CSS3?
+  Ans:(1) CSS1 had a major difficulty with adaptation and consistency across different web browsers. The number of web browsers has also increased largely.
+          CSS2 still has browser extension issues. CSS3 has complete support for almost all recent web browsers.
+ 
+      (2)CSS1 had limited styling options and old design influences. The properties and add-ons have increased with CSS2 and further expanded with CSS3.
+         CSS3 has support to add animations to your modern websites.
+ 
+      (3)CSS3 has compatibility with external font styles through google fonts and typecast. It was not possible with earlier CSS1 and CSS2.
+ 
+      (4)The selectors in CSS3 has increased while CSS1 and CSS2 only had simple selectors.
+ 
+      (5)CSS1 AND CSS2 didn’t have provision to specifically design the web layout. It is possible with the CSS3 grid system and template layout module. 
+         It helped in creating layouts according to user components.
+ 
+      (6)CSS3 has now been split into various documents known as modules. Previously it was all a single document and limited features.
+          The modularisation helped in working on a particular specification and faster evolution.
+ 
+      (7)CSS3 is compatible with Internet Explorer 9 whereas CSS1 used to be compatible with Internet Explorer 3.
+ 
+      (8)CSS3 supports responsive design. Responsive design is referred to as designing a website in such a manner that it looks good on all screen sizes.
+         It should not break or misalign components on changing the screen size.
+
+4.   Name a few CSS style components
+  Ans: (1) selector  (2)  Atribute  (3) value of propaty
+
+5.   What do you understand by CSS opacity?
+  Ans:  The opacity CSS property sets the opacity of an element.
+        Opacity is the degree to which content behind an element is hidden, and is the opposite of transparency.
+
+6.   How can the background color of an element be changed?
+  Ans: select (tag,class,id) and write background color and select your colour after  and then changed your colour.
+
+7.   • How can image repetition of the backup be controlled?
+  Ans:using the background-repeat property that will help us to control the repetition of the image. 
+
+8.  What is the use of the background-position property?
+  Ans:sets the starting position of a background image.
+
+9.  Which property controls the image scroll in the background?
+  Ans:The background-attachment property sets whether a background image scrolls with the rest of the page, or is fixed.
+
+10.  Why should background and color be used as separate properties?
+   Ans: It enhances the legibility of style sheets
+11.  How to center block elements using CSS1?
+   Ans:<center>
+
+12.  How to maintain the CSS specifications?
+   Ans:The CSS Specification prior to CSS3 was a single Specification,
+       CSS3 on the other hand is divided into Modules which are Independent Specifications that can be worked on by different author(s) at different paces,
+       that's why we have Selector Level 3 Specification, CSS Color 4, CSS Backgrounds and so on. Some of these modules are revisions of CSS2.1,
+       and some are newly created, but all fall under the banner of CSS3.
+
+13.  What are the ways to integrate CSS as a web page?
+   ANs:use Inline CSS in a style attribute.
+
+14.  What is embedded style sheets?
+   Ans:It allows you to define styles for a particular HTML document as a whole in one place.
+       This is done by embedding the <style></style> tags containing the CSS properties in the head of your document
+
+15.  What are the external style sheets?
+   Ans:An external style sheet is a separate CSS file that can be accessed by creating a link within the head section of the webpage.
+
+16.  What are the advantages and disadvantages of using external style sheets?
+   Ans: (1) advantages:
+                      -Using them, the styles of multiple documents can be controlled from one file.
+                      - Classes can be created for use on multiple HTML element types in many documents.
+                      - In complex situations, selector and grouping methods can be used to apply styles
+       
+        (2)  disadvantages:
+                           - In order to import style information for each document, an extra download is needed.
+                           - Until the external style sheet is loaded, it may not be possible to render the document.
+                           - For small number of style definitions, it is not viable
+ 
+17.  What is the meaning of the CSS selector?
+    Ans: It is a pattern of elements and other terms that tell the browser which HTML elements should be selected to have
+         the CSS property values inside the rule applied to them.
+
+18.  What are the media types allowed by CSS?
+   Ans: (1)all:
+               Suitable for all devices.
+        (2)aural:
+                Intended for speech synthesizers.
+        (3)braille:
+                  Intended for braille tactile feedback devices.
+        (4)embossed:
+                   Intended for paged braille printers.
+        (5)handheld:
+                    Intended for handheld devices (typically small screen, monochrome, limited bandwidth).
+        (6)print:
+                Intended for paged, opaque material and for documents viewed on screen in print preview mode.
+                Please consult the section on paged media.
+        (7)projection:
+                      Intended for projected presentations, for example projectors or print to transparencies. 
+                      Please consult the section on paged media.
+        (8)screen:
+                  Intended primarily for color computer screens.
+        (9)tty:
+               Intended for media using a fixed-pitch character grid, such as teletypes, terminals,
+               or portable devices with limited display capabilities.
+        (10)tv:
+               Intended for television-type devices.
+
+19.   What is the rule set?
+   Ans:A table of instructions used by a controlled interface to determine what data is allowable and how the data is handled between interconnected systems.
+
